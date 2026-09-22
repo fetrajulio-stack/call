@@ -1,0 +1,15 @@
+[project]
+name = "call-agent"
+version = "0.1.0"
+description = "Agent IA vocal temps réel qui répond aux appels (Groq + Pipecat)"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pipecat-ai[groq,kokoro,piper,webrtc,runner,websocket]~=1.11.0",
+    "python-dotenv>=1.0",
+    "loguru>=0.7",
+]
+
+[tool.uv]
+# Projet "script", pas une bibliothèque : uv installe les dépendances sans empaqueter le code.
+package = false

@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "bot-webrtc",
+      "runtimeExecutable": ".venv/Scripts/python.exe",
+      "runtimeArgs": ["bot.py", "-t", "webrtc"],
+      "port": 7860
+    }
+  ]
+}

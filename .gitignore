@@ -1,0 +1,20 @@
+# Secrets et données personnelles
+.env
+
+# Environnement Python
+.venv/
+__pycache__/
+*.pyc
+
+# Données d'appels et fichiers audio de test
+data/calls/*.json
+data/*.wav
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+
+# Dossiers de plugins/skills déposés dans le projet mais sans rapport avec l'agent (75 Mo)
+PLUGINS/
+SKILLS/
